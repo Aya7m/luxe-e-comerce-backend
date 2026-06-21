@@ -21,7 +21,7 @@ const port = process.env.PORT;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://luxe-e-commerce-frontend-lke6.vercel.app",
     credentials: true,
   }),
 );
